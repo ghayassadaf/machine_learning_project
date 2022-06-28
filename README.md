@@ -10,6 +10,8 @@ Project Requirement: <br />
 
 4.Git cli<br />
 
+5. [Git tutorial](https://git-scm.com/docs/gittutorial)
+
 #create environment venv
 conda create -p venv python==3.7 -y
 
