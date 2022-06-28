@@ -57,4 +57,33 @@ git remote add origin <origin link>
 
 git branch
 
+# To set up CI/CD, 3 info needed
+So, In this project..
+
+1.HEROKU_EMAIL=ghayassadaf@gmail.com
+2.HEROKU_API_KEY=c877d622-d5cd-4b50-9519-fcf1734f309f
+3.HEROKU_APP_NAME=ml-app-pro
+
+
+#Building docker image
+docker build -t <image_name>:<tag_name>
+
+*image name must be in lower case
+
+#Listing docker
+
+docker images
+
+#Run docker image
+
+docker run -p 1000:1000 -e PORT=1000 <image_id>
+
+#To list running docker image 
+
+docker ps
+
+#To stop running docker image
+
+docker stop <container_id>  *get it from docker ps with first 4 letter
+
 
