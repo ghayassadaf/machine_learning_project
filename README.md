@@ -1,5 +1,5 @@
 
-This is my first ML project <br />
+This is my first ML project <br /> 
 Project Requirement: <br />
 
 1.Github account<br />
@@ -61,7 +61,7 @@ git branch
 So, In this project..
 
 1.HEROKU_EMAIL=ghayassadaf@gmail.com
-2.HEROKU_API_KEY=c877d622-d5cd-4b50-9519-fcf1734f309f
+2.HEROKU_API_KEY=<>
 3.HEROKU_APP_NAME=ml-app-pro
 
 
@@ -85,5 +85,8 @@ docker ps
 #To stop running docker image
 
 docker stop <container_id>  *get it from docker ps with first 4 letter
+
+c877d622-d5cd-4b50-9519-fcf1734f309f
+
 
 
